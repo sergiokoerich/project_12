@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --ff-body: 'Mulish', sans-serif;
+
+    --bg-primary: #F9F4FB;
+    --bg-secondary: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+    --fc-titles: #B52184;
+    --fc-body: #312D64;
+}
+
+.page {
+    max-width: 43rem;
+    margin: 0 auto;
+    font-family: var(--ff-body);
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3.4rem;
+    text-align: center;
+    background-color: var(--bg-primary);
+    height: 67.9rem;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.7rem;
+}
+
+.capa2 h1 {
+    font-weight: 900;
+    color: var(--fc-titles);
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+}
+
+.capa2 p{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 3.5rem;
+    color: var(--fc-body);
+}
+
+.capa2 button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+
+.luas{
+    height: 124.2rem;
+    background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+    padding: 5.2rem 3.9rem 5.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.lua {
+    width: 35.2rem;
+    height: 33.79rem;
+    background-color: white;
+    box-shadow: 0px 3.31077px 13.2431px rgba(0, 0, 0, 0.25);
+    border-radius: 1.98rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.64rem;
+}
+
+.lua img {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 2rem;
+}
+
+.lua h1 {
+    font-weight: 900;
+    font-size: 2.92rem;
+    color: var(--fc-titles);
+    margin-bottom: 1rem;
+}
+
+.lua p{
+    width: 265.69px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--fc-body);
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    padding: 6.5rem 4rem;
+    height: 56.5rem;
+    position: relative;
+    background: var(--bg-primary);
+}
+
+form legend {
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: var(--fc-titles);
+    margin-bottom: 5rem;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.input-wrapper label {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--fc-body);
+}
+
+.input-wrapper input, .input-wrapper textarea {
+    box-sizing: border-box;
+    background: var(--bg-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    border: 1.5px solid #312D64;
+    border-radius: 1.6rem;
+
+    color: var(--fc-body);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+#event-name {
+    background-image: url(images/Vector\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: 1.5rem;
+    background-size: 1.3em;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+#event-email {
+    background-image: url(images/Vector\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-position: 1.5rem;
+    background-size: 1.3em;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+#event-mesage{
+    width: 348px;
+    height: 126px;
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    border: 1.5px solid #312D64;
+    border-radius: 1.6rem;
+    font-family: var(--ff-body);
+}
+
+fieldset .button {
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    width: 151px;
+    height: 45px;
+    background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+    border-radius: 16px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+footer {
+    height: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 1.9rem;
+    color: white;
+}
+
+@media (min-width: 1000px) {
+  
+    .page {
+        max-width: 144rem;
+        background-color: var(--bg-primary);
+    }
+
+    header {
+        height: 83.6rem;
+    }
+
+    .capa1 img{
+        position: relative;
+        width: 71.93rem;
+        height: 73.2rem;
+        top: 0;
+        left: 25rem;
+    }
+
+    .capa2 h1{
+        position: relative;
+        width: 55.4rem;
+        height: 7.3rem;
+        left: -30rem;
+        top: -45rem;
+        font-size: 5.82rem;
+        z-index: 1;
+    }
+
+    .capa2 p{
+        position: relative;
+        width: 53rem;
+        height: 2.3rem;
+        left: -31.6rem;
+        top: -45.3rem;
+        font-size: 3.2rem;
+    }
+
+    .capa2 img{
+        position: relative;
+        left: -54.8rem;
+        top: -30.3rem;
+        height: 10.5rem;
+        width: 5.85rem;
+    }
+
+    .luas {
+        height: 576px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .lua {
+        width: 366px;
+        height: 448px;
+    }
+
+    .lua img{
+        width: 97px;
+        height: 97px;
+    }
+
+    .lua h1 {
+        width: 279px;
+        height: 25px;
+        font-size: 3.53rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .lua p {
+        width: 321px;
+        height: 158px;
+        font-size: 1.93rem;
+    }
+
+    fieldset {
+        height: 61.2rem;
+        
+    }
+
+    fieldset legend {
+        width: 35.7rem;
+        height: 5.3rem;
+        left: 10.9rem;
+        top: 9.5rem;
+        font-size: 4.2rem;
+    }
+
+    .input-wrapper {
+        width: 59.2rem;
+        height: 4.8rem;
+        left: 11.2rem;
+        top: 17.8rem;
+    }
+
+    #event-mesage {
+        width: 59.2rem;
+        height: 12.6rem;
+        left: 11.2rem;
+        top: 32.2rem;
+    }
+
+    fieldset .button {
+        width: 151px;
+        height: 45px;
+        left: 112px;
+        top: 472px;
+        padding: 1.6rem;
+    }
+
+    footer {
+        position: relative;
+        bottom: -4rem;
+    }
+}
